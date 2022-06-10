@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-//const UserModel = require("../SRC/models/user.model");
+const UserModel = require("../SRC/models/user.model");
 
 app.use(express.json()); // PRA QUANDO AGENTE QUISER USAR JSON NA NOSSA APLICÇAO
 
